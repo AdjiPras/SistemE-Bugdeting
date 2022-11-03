@@ -1,0 +1,7 @@
+django==2.2
+global-apbd-logging
+psycopg2-binary==2.8.6
+openpyxl==3.0.7
+pandas==1.2.4
+xlrd==1.2.0
+whitenoise==5.2.0

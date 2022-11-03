@@ -1,10 +1,3 @@
-"# diskusi" 
-"# diskusi" 
-"# diskusi_V2" 
-"# diskusi_V2" 
-"# SistemPenggajian" 
-"# Penggajian" 
-"# KampungWirausaha" 
-"# KampungWirausaha" 
-"# SistemPenjualan" 
-"# SistemE-Bugdeting" 
+# APBD Majalengka
+
+Source APBD (E-Budgeting) untuk Kabupaten Majalengka, Python Django PostgresSQL HTML CSS JS

@@ -1,0 +1,39 @@
+UPDATE APBD KLATEN 27 SEP 2021
+
+apbd/urls.py:
+# ADD JOEL 23 SEP 2021 ========================================
+path('skpd/rkabelanjalangsung/modal_detail_indikator/<str:jenis>/<str:jenis2>/<str:jenis3>/', views.modal_detail_indikator, 		name='modal_detail_indikator'),
+path('skpd/rkabelanjalangsung/save_dtl_indikator/<str:jenis>/<str:jenis2>/<str:jenis3>/', views.save_dtl_indikator,name='save_dtl_indikator'),
+# END JOEL 23 SEP 2021 ========================================
+
+apbd\templates\pra_skpd\prarkabelanjalangsung.html
+apbd\templates\anggaran_skpd\modal\modal_edit_prog_keg.html
+
+apbd\templates\anggaran_skpd\modal\modal_detail_indikator.html
+
+apbd\views\anggaranSKPD\anggaran_blSKPDViews.py:
+	ADD => def modal_detail_indikator(request,jenis,jenis2,jenis3):
+	ADD => def save_dtl_indikator(request,jenis,jenis2,jenis3):
+
+apbd\assets\js\main-modul.js:
+	function showModal(e,modal): ADD => 
+	case 'detail_program':
+        	loadModal = "Detail Indikator Program";
+        	url_load = linkLoad;
+        	break;
+
+    	case 'detail_kegiatan':
+        	loadModal = "Detail Indikator Kegiatan";
+        	url_load = linkLoad;
+        	break;
+
+    	case 'detail_subkegiatan':
+        	loadModal = "Detail Indikator Sub Kegiatan";
+        	url_load = linkLoad;
+        	break;
+
+
+apbd\templates\pra_skpd\prarkabelanjalangsung.html
+apbd\templates\anggaran_skpd\modal\modal_detail_indikator.html
+apbd\views\anggaranSKPD\anggaran_blSKPDViews.py
+

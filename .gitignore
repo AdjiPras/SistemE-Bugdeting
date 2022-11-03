@@ -1,0 +1,7 @@
+*.pyc
+konfigurasi_app.py
+apbd_pmd90/settings.py
+apbd/config.py
+report_sikd/konfig.ini
+apbd/assets/images/logo/logo.png
+report_sikd/templates/LOGO.bmp
